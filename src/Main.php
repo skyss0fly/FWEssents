@@ -21,10 +21,10 @@ function onLoad(): void
     $this->getLogger()->info(TextFormat::LIGHT_PURPLE . "FWEssents: V0.0.0.1 Loaded successfully");
 	}
 
-  }
 
 	 function onEnable(): void
 			 $this->getLogger()->info(TextFormat::LIGHT_PURPLE . "FWEssents: V0.0.0.1 Enabled successfully! Have a great day!");
 }
 		
 	
+}
