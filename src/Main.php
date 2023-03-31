@@ -10,7 +10,7 @@ use pocketmine\plugin\PluginBase;
 
 class Main extends PluginBase
 {
-  private CustomConfig $config;
+  private Config $config;
 	private static self $instance;
 
 function onLoad(): void
