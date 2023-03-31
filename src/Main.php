@@ -11,7 +11,7 @@ class Main extends PluginBase
   private CustomConfig $config;
 	private static self $instance;
 
-	protected function onLoad(): void
+function onLoad(): void
 			
 	
 	{
@@ -23,7 +23,7 @@ class Main extends PluginBase
 
   }
 
-	protected function onEnable(): void
+	 function onEnable(): void
 			 $this->getLogger()->info(TextFormat::LIGHT_PURPLE . "FWEssents: V0.0.0.1 Enabled successfully! Have a great day!");
 }
 		
