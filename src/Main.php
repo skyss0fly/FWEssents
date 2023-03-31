@@ -19,7 +19,7 @@ function onLoad(): void
 	{
 		self::$instance = $this;
 		$this->saveResource("config.yml");
-		$this->config = new CustomConfig(new Config($this->getDataFolder() . "config.yml", Config::YAML));
+		$this->config = new Config(new Config($this->getDataFolder() . "config.yml", Config::YAML));
     $this->getLogger()->info(TextFormat::LIGHT_PURPLE . "FWEssents: V0.0.0.1 Loaded successfully");
 	}
 
