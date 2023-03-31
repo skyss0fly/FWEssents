@@ -5,6 +5,7 @@ use skyss0fly\src\config\config;
 use pocketmine\scheduler\AsyncTask;
 use pocketmine\Server;
 use pocketmine\utils\TextFormat;
+use pocketmine\plugin\PluginBase;
 
 
 class Main extends PluginBase
