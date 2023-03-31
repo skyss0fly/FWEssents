@@ -4,7 +4,7 @@ namespace skyss0fly\FWEssents;
 use skyss0fly\src\config\config;
 use pocketmine\scheduler\AsyncTask;
 use pocketmine\Server;
-use pocketmine\utils\Config;
+
 
 class Main extends PluginBase
 {
